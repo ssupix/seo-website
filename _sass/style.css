@@ -109,6 +109,7 @@ header nav {
 .hero {
   width: 100%;
   display: flex;
+  position: absolute;
 }
 
 .article-1 {
@@ -120,6 +121,7 @@ header nav {
   width: 50%;
   height: 95vh;
   overflow: hidden;
+  position: relative;
 }
 .hero-banner img {
   width: 100%;

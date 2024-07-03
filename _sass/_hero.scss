@@ -1,6 +1,7 @@
 .hero {
     width: 100%;
     display: flex;
+    position: absolute;
 }
 
 .article-1 {
@@ -12,6 +13,7 @@
     width: 50%;
     height: 95vh;
     overflow: hidden;
+    position: relative;
 
     img {
         width: 100%;
