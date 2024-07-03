@@ -1,7 +1,12 @@
 @import "variables";
 
 @import "header";
+@import "hero";
 
 * {
     padding: 0;
+}
+
+body {
+    width: 100%;
 }
