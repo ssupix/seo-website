@@ -34,7 +34,7 @@ ScrollTrigger.create({
 })
 
 ScrollTrigger.create({
-	trigger:"fold-2",
+	trigger:"fold-1",
 	start:"top top",
 	end:"bottom bottom",
 	pin:".football"

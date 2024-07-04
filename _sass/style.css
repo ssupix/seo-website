@@ -124,7 +124,7 @@ header nav {
 
 .article-1 {
   width: 50%;
-  height: 2300px;
+  height: 2400px;
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -146,7 +146,7 @@ header nav {
   width: 60%;
   font-size: 24px;
   font-family: "Kyiv";
-  font-weight: 600;
+  font-weight: 500;
 }
 .article-1 h3 {
   text-transform: uppercase;
@@ -166,7 +166,8 @@ header nav {
 }
 
 .fold-1 {
-  max-height: 100vh;
+  max-height: 95vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -176,22 +177,24 @@ header nav {
 .fold-2 {
   display: flex;
   flex-direction: column;
-  gap: 50px;
-  position: relative;
-  justify-content: flex-end;
+  justify-content: space-between;
+  height: 100%;
 }
 .fold-2 p {
   margin-top: 50px;
 }
 .fold-2 .football {
   z-index: 999;
-  position: absolute;
   width: 250px;
   top: 0;
 }
 .fold-2 .football img {
   width: 100%;
   height: auto;
+}
+.fold-2 q {
+  font-family: "Kyiv";
+  font-size: 24px;
 }
 
 .hero-banner {
