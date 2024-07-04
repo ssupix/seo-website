@@ -17,7 +17,7 @@ gsap.to(".issue-line ul li", {
     // set the animation duration to 6 seconds
     duration: 4,
     // moves the elements horizontally by -102%
-    x: "-105%",
+    x: "-104%",
     // linear easing
     ease: "linear",
     // makes the animation repeat infinitely
