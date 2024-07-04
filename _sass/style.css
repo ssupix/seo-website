@@ -298,4 +298,74 @@ header nav {
 
 .next:hover {
   color: #53F02C;
+}
+
+footer {
+  height: 40vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+
+.content-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+.content-wrap h4 {
+  font-family: "Bayon";
+  font-size: 24px;
+}
+.content-wrap .featured {
+  width: 50%;
+}
+.content-wrap .featured p {
+  width: 60%;
+}
+.content-wrap .about {
+  width: 25%;
+}
+.content-wrap .publisher {
+  width: 25%;
+}
+
+.issue-line {
+  margin: 0;
+  padding: 15px 0;
+  overflow: hidden;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.issue-line ul {
+  list-style: none;
+  display: flex;
+}
+
+.issue-line ul li {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  margin-left: 5px;
+}
+
+.issue-line ul li a {
+  color: #53F02C;
+  background-color: black;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: "Kyiv";
+  font-weight: 200;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
