@@ -8,9 +8,14 @@ body {
   width: 100%;
 }
 body p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Kyiv";
+  font-weight: 300;
 }
 
+@font-face {
+  font-family: "Kyiv";
+  src: url("/fonts/KyivTypeSans-VarGX.ttf") format("truetype");
+}
 header {
   position: fixed;
   top: 0;
@@ -99,6 +104,7 @@ header nav {
   color: black;
   font-size: 24px;
   transition: all 0.3s ease;
+  text-decoration: none;
 }
 .nav-links ul li a:hover {
   color: #53F02C;
@@ -118,7 +124,7 @@ header nav {
 
 .article-1 {
   width: 50%;
-  height: 2000px;
+  height: 2300px;
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -139,12 +145,17 @@ header nav {
 .article-1 h4 {
   width: 60%;
   font-size: 24px;
+  font-family: "Kyiv";
+  font-weight: 600;
 }
 .article-1 h3 {
   text-transform: uppercase;
+  font-size: 24px;
   position: absolute;
   top: 0;
   margin-top: 100px;
+  font-family: "Kyiv";
+  font-weight: 200;
 }
 .article-1 p {
   width: 60%;
@@ -155,7 +166,7 @@ header nav {
 }
 
 .fold-1 {
-  height: 100vh;
+  max-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -167,6 +178,10 @@ header nav {
   flex-direction: column;
   gap: 50px;
   position: relative;
+  justify-content: flex-end;
+}
+.fold-2 p {
+  margin-top: 50px;
 }
 .fold-2 .football {
   z-index: 999;
@@ -191,7 +206,7 @@ header nav {
 
 .issue-line {
   margin: 0;
-  padding: 10px 0;
+  padding: 15px 0;
   overflow: hidden;
   line-height: 1;
   display: flex;
@@ -215,7 +230,10 @@ header nav {
 .issue-line ul li a {
   color: #53F02C;
   background-color: black;
-  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: "Kyiv";
+  font-weight: 200;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 20px;
