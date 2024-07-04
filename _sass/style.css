@@ -186,4 +186,36 @@ header nav {
 .hero-banner img {
   width: 100%;
   size: cover;
+}
+
+.issue-line {
+  margin: 0;
+  padding: 5px 0;
+  overflow: hidden;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.issue-line ul {
+  list-style: none;
+  display: flex;
+}
+
+.issue-line ul li {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  margin-left: 5px;
+}
+
+.issue-line ul li a {
+  color: #53F02C;
+  background-color: black;
+  font-family: "Bayon", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
