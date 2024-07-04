@@ -7,7 +7,8 @@ header {
     justify-content: center;
     align-items: center;
     background-color: white;
-    padding-top: 2px;
+    padding-top: 1px;
+    z-index: 999;
     
 
     nav {
@@ -15,7 +16,7 @@ header {
         justify-content: space-between;
         height: 100%;
         display: flex;
-        border: 2px solid black;
+        border: 1px solid black;
         border-left: none;
     }
 }
@@ -24,7 +25,7 @@ header {
     height: 100%;
     width: auto;
     padding: 0 40px;
-    border-right: 2px solid black;
+    border-right: 1px solid black;
 
     img {
         height: 100%;
@@ -80,7 +81,7 @@ header {
         align-items: center;
         padding: 0 30px;
         height: 65px;
-        border: 2px solid black;
+        border: 1px solid black;
         border-right: none;
     }
 

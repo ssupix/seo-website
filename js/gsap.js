@@ -10,3 +10,19 @@ gsap.to(".running-line ul li", {
     // makes the animation repeat infinitely
     repeat: -1
 });
+
+gsap.registerPlugin(ScrollTrigger)
+
+ScrollTrigger.create({
+	trigger:"section.hero",
+	start:"top top",
+	end:"bottom bottom",
+	pin:".hero-banner"
+})
+
+ScrollTrigger.create({
+	trigger:"fold-2",
+	start:"top top",
+	end:"bottom bottom",
+	pin:".football"
+})

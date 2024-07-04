@@ -6,6 +6,9 @@
 body {
   width: 100%;
 }
+body p {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 header {
   position: sticky;
@@ -16,14 +19,15 @@ header {
   justify-content: center;
   align-items: center;
   background-color: white;
-  padding-top: 2px;
+  padding-top: 1px;
+  z-index: 999;
 }
 header nav {
   width: 100%;
   justify-content: space-between;
   height: 100%;
   display: flex;
-  border: 2px solid black;
+  border: 1px solid black;
   border-left: none;
 }
 
@@ -31,7 +35,7 @@ header nav {
   height: 100%;
   width: auto;
   padding: 0 40px;
-  border-right: 2px solid black;
+  border-right: 1px solid black;
 }
 .logo img {
   height: 100%;
@@ -85,7 +89,7 @@ header nav {
   align-items: center;
   padding: 0 30px;
   height: 65px;
-  border: 2px solid black;
+  border: 1px solid black;
   border-right: none;
 }
 .nav-links ul li a {
@@ -109,20 +113,75 @@ header nav {
 .hero {
   width: 100%;
   display: flex;
-  position: absolute;
 }
 
 .article-1 {
   width: 50%;
-  height: 500px;
-  padding: 20px;
+  height: 2000px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  position: relative;
+}
+.article-1 h1 {
+  margin-top: 250px;
+  font-family: "Bayon", sans-serif;
+  font-size: 120px;
+  font-weight: 400;
+  line-height: 0.85;
+}
+.article-1 h1 span {
+  font-family: "Lacquer", system-ui;
+}
+.article-1 h4 {
+  width: 60%;
+  font-size: 24px;
+}
+.article-1 h3 {
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  margin-top: 10px;
+}
+.article-1 p {
+  width: 60%;
+}
+.article-1 img {
+  height: 600px;
+  width: 400px;
+}
+
+.fold-1 {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 50px;
+}
+
+.fold-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  position: relative;
+}
+.fold-2 .football {
+  z-index: 999;
+  position: absolute;
+  width: 250px;
+  top: 0;
+}
+.fold-2 .football img {
+  width: 100%;
+  height: auto;
 }
 
 .hero-banner {
   width: 50%;
-  height: 95vh;
+  height: 100vh;
   overflow: hidden;
-  position: relative;
 }
 .hero-banner img {
   width: 100%;
