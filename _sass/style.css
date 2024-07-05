@@ -204,6 +204,7 @@ header nav {
   overflow: hidden;
   background-image: url(../media/hero-image.jpg);
   background-size: cover;
+  background-position: center;
 }
 .hero-banner img {
   width: 100%;

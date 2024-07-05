@@ -13,7 +13,7 @@ gsap.to(".running-line ul li", {
 
 // RUNNING TEXT LINE
 // animates elements with the class .running ul li
-gsap.to(".issue-line ul li", {
+gsap.to(".footer-line ul li", {
     // set the animation duration to 6 seconds
     duration: 4,
     // moves the elements horizontally by -102%
