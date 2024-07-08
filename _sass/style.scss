@@ -9,7 +9,18 @@ body {
 
     p {
         font-family: 'Kyiv';
-        font-weight: 300;
+        font-weight: 400;
+    }
+
+    .keyword {
+        text-decoration: none;
+        color: rgb(34, 170, 0);
+        transition: all .2s ease;
+    }
+
+    .keyword:hover {
+        text-decoration: none;
+        color: rgb(78, 200, 48);
     }
 }
 
