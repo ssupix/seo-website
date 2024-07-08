@@ -23,7 +23,7 @@ body .keyword:hover {
 
 @font-face {
   font-family: "Kyiv";
-  src: url("/fonts/KyivTypeSans-VarGX.ttf") format("truetype");
+  src: url("../fonts/KyivTypeSans-VarGX.ttf") format("truetype");
 }
 header {
   position: fixed;
